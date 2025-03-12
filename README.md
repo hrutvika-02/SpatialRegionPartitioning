@@ -15,9 +15,8 @@ The repository consists of the following files and directories:
 
 - `PRRP_version.ipynb`: A Jupyter notebook implementing the Cardinality-Based Spatial Partitioning algorithm (PRRP).
 - `PRRP-I_version.ipynb`: A Jupyter notebook implementing the improved version of the algorithm (PRRP-I), which incorporates cardinality constraints for each region.
-- `data/`: A directory containing the shapefile used in the experiments.
-  - `cb_2015_42_tract_500k.shp`: The shapefile used for spatial partitioning experiments.
-  - `cb_2015_42_tract_500k.shx`: The index file for the shapefile.
+- `cb_2015_42_tract_500k.shp`: The shapefile used for spatial partitioning experiments.
+- `cb_2015_42_tract_500k.shx`: The index file for the shapefile.
 - `requirements.txt`: A file listing the required Python libraries and dependencies.
 
 ## Prerequisites
