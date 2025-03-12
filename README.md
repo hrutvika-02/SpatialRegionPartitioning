@@ -3,6 +3,12 @@
 
 This repository contains two Jupyter notebooks implementing the Spatial Partitioning algorithm (PRRP) and its improved version (PRRP-I). Both algorithms aim to partition spatial datasets efficiently while considering cardinality constraints. The shapefile used for experimentation is also included in the repository.
 
+## PRRP 
+The PRRP_version.ipynb file implements the P-Regionalization through Recursive Partitioning algorithm (PRRP). You can run this notebook to explore the algorithm's implementation and results on the provided dataset.
+
+## PRRP-I 
+The PRRP-I_version.ipynb file implements the improved version of the algorithm (PRRP-I). It modifies the PRRP algorithm by introducing cardinality constraints for each region. Run this notebook to compare the performance of the improved algorithm with the original.
+
 ## Repository Structure
 
 The repository consists of the following files and directories:
@@ -26,9 +32,3 @@ To install the required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
-
-PRRP Notebook
-The PRRP_notebook.ipynb file implements the P-Regionalization through Recursive Partitioning algorithm (PRRP). You can run this notebook to explore the algorithm's implementation and results on the provided dataset.
-
-PRRP-I Notebook
-The PRRP_I_notebook.ipynb file implements the improved version of the algorithm (PRRP-I). It modifies the PRRP algorithm by introducing cardinality constraints for each region. Run this notebook to compare the performance of the improved algorithm with the original.
